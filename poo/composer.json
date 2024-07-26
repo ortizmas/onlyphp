@@ -1,0 +1,19 @@
+{
+    "name": "ortizmas/poo",
+    "description": "Curso completo sobre poo com php",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ortizmas\\Poo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eber Ortiz",
+            "email": "ortizmas14@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^7.1"
+    }
+}
