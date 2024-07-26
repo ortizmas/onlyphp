@@ -20,7 +20,14 @@ echo $temp . "\n";
 if ($num === $reverse_num) {
     echo "O numero {$num} é um Palindrome \n";
 } else {
-    echo "O numero {$num} não é um Palindrome \n";
+    $reverse_num = strrev($num);
+    echo "O numero {$num} não é um Palindrome {$reverse_num} \n";
+}
+
+// Other Method
+if ($num == strrev($num)) {
+    $num = strrev($num);
+    echo "é um palindrome {$num}, usando strrev";
 }
 
 
